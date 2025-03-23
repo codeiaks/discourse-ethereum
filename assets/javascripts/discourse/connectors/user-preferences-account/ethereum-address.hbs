@@ -2,7 +2,7 @@
   <label class="control-label">{{i18n "discourse_ethereum.ethereum_address"}}</label>
   <div class="controls ethereum-address-container">
     {{input type="text" value=this.model.custom_fields.ethereum_address readonly=true placeholder="Connect wallet to display address"}}
-    <button class="btn btn-primary connect-wallet-btn" {{action "connectWallet"}}>Connect Wallet</button>
+    <button class="btn btn-primary connect-wallet-btn" {{action "connectWallet" preventDefault=true}}>Connect Wallet</button>
   </div>
   <div class="control-description">
     {{i18n "discourse_ethereum.connect_wallet_description"}}
