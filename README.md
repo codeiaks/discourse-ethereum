@@ -22,7 +22,6 @@ A Discourse plugin that enables Ethereum wallet integration for forum users. Thi
 1. Go to Admin > Settings > Plugins
 2. Add a new repository with the following details:
    - Repository URL: `https://github.com/codeiaks/discourse-ethereum`
-   - Branch (optional): `main`
 3. Click "Install"
 4. Restart your Discourse instance
 
