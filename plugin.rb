@@ -1,7 +1,7 @@
-# name: discourse-ethereum
-# version: 0.2.0
-# authors: Updated by Your Name
-# url: https://github.com/yourusername/discourse-ethereum
+# name: discourse-ethereum-wallet
+# version: 0.0.1
+# authors: Codeiaks
+# url: https://github.com/codeiaks/discourse-ethereum-wallet
 # required_version: 2.7.0
 
 enabled_site_setting :discourse_ethereum_enabled
