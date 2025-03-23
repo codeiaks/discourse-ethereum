@@ -4,11 +4,11 @@ A Discourse plugin that enables Ethereum wallet integration for forum users. Thi
 
 ## Features
 
-- 🔌 **Wallet Connection**: Users can connect their MetaMask or other Web3 wallets directly from their profile settings
-- 🔑 **Address Display**: Ethereum addresses are shown on user profiles and posts
-- ✅ **Message Signing**: Support for cryptographic message signing for identity verification (gasless)
-- 🔗 **Etherscan Integration**: Automatic links to view addresses on the appropriate Etherscan explorer
-- 🌐 **Multi-Network Support**: Works with Ethereum Mainnet and testnets (Goerli, Rinkeby, etc.)
+- **Wallet Connection**: Users can connect their MetaMask or other Web3 wallets directly from their profile settings
+- **Address Display**: Ethereum addresses are shown on user profiles and posts
+- **Message Signing**: Support for cryptographic message signing for identity verification (gasless)
+- **Etherscan Integration**: Automatic links to view addresses on the appropriate Etherscan explorer
+- **Multi-Network Support**: Works with Ethereum Mainnet and testnets (Goerli, Rinkeby, etc.)
 
 ## Requirements
 
@@ -21,7 +21,7 @@ A Discourse plugin that enables Ethereum wallet integration for forum users. Thi
 
 1. Go to Admin > Settings > Plugins
 2. Add a new repository with the following details:
-   - Repository URL: `https://github.com/yourusername/discourse-ethereum`
+   - Repository URL: `https://github.com/codeiaks/discourse-ethereum`
    - Branch (optional): `main`
 3. Click "Install"
 4. Restart your Discourse instance
@@ -31,7 +31,7 @@ A Discourse plugin that enables Ethereum wallet integration for forum users. Thi
 ```bash
 # Clone the repository
 cd /var/discourse/plugins
-git clone https://github.com/yourusername/discourse-ethereum.git
+git clone https://github.com/codeiaks/discourse-ethereum.git
 
 # Rebuild the container
 cd /var/discourse
@@ -92,12 +92,3 @@ You can customize the plugin by:
 ## License
 
 This plugin is open-source software licensed under the MIT license.
-
-## Credits
-
-- Original concept inspired by Web3 identity verification systems
-- Thanks to the Discourse team for their comprehensive plugin API
-
-## Support
-
-For questions or issues, please open an issue on the GitHub repository.
