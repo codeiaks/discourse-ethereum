@@ -1,0 +1,10 @@
+plugins:
+  discourse_ethereum_enabled:
+    default: false
+    client: true
+  discourse_ethereum_all_user:
+    default: true
+    client: true
+  discourse_ethereum_groups:
+    default: ""
+    client: true
