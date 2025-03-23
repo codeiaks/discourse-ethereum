@@ -1,4 +1,4 @@
-# name: discourse-ethereum-wallet
+# name: discourse-ethereum
 # version: 0.0.1
 # authors: Codeiaks
 # url: https://github.com/codeiaks/discourse-ethereum-wallet
