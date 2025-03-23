@@ -1,8 +1,13 @@
 <div class="control-group">
   <label class="control-label">{{i18n "discourse_ethereum.ethereum_address"}}</label>
   <div class="controls ethereum-address-container">
-    {{input type="text" value=this.model.custom_fields.ethereum_address readonly=true placeholder="Connect wallet to display address"}}
-    <button type="button" class="btn btn-primary connect-wallet-btn" {{action "connectWallet"}}>Connect Wallet</button>
+    {{#if this.model.custom_fields.ethereum_address}}
+      <div class="ethereum-address-display">{{this.model.custom_fields.ethereum_address}}</div>
+      <button type="button" class="btn btn-default reconnect-wallet-btn" {{action "connectWallet"}}>Reconnect Wallet</button>
+    {{else}}
+      <div class="ethereum-address-placeholder">{{i18n "discourse_ethereum.no_wallet_connected"}}</div>
+      <button type="button" class="btn btn-primary connect-wallet-btn" {{action "connectWallet"}}>Connect Wallet</button>
+    {{/if}}
   </div>
   <div class="control-description">
     {{i18n "discourse_ethereum.connect_wallet_description"}}

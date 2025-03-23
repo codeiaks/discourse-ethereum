@@ -3,6 +3,7 @@ en:
     discourse_ethereum:
       ethereum_address: "Ethereum Address"
       connect_wallet_description: "Connect your Ethereum wallet to display your address on your profile"
+      no_wallet_connected: "No wallet connected"
       sign_message_button: "Sign Message"
       sign_message:
         title: "Sign Message with Wallet"
