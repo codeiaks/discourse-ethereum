@@ -10,6 +10,10 @@
     {{/if}}
   </div>
   <div class="control-description">
-    {{i18n "discourse_ethereum.connect_wallet_description"}}
+    {{#if this.model.custom_fields.ethereum_address}}
+      {{i18n "discourse_ethereum.connect_wallet_description"}}
+    {{else}}
+      {{i18n "discourse_ethereum.connect_successful_description"}}
+    {{/if}}
   </div>
 </div>
