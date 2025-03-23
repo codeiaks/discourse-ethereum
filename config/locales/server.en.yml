@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    discourse_ethereum_enabled: "Enable Ethereum integration"
+    discourse_ethereum_all_user: "Enable Ethereum features for all users"
+    discourse_ethereum_groups: "Only enable Ethereum features for these groups (pipe-separated list)"
