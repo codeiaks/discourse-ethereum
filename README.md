@@ -62,24 +62,6 @@ To verify wallet ownership without spending gas:
 3. Confirm the message in your wallet
 4. The signature can be used for verification purposes
 
-## Development
-
-To set up the development environment:
-
-```bash
-# Create the plugin directory structure
-./setup-discourse-ethereum.sh
-
-# Navigate to your Discourse development directory
-cd ~/discourse
-
-# Create a symlink to the plugin
-ln -s ~/path/to/discourse-ethereum plugins/discourse-ethereum
-
-# Restart the development server
-bin/rails s
-```
-
 ## Customization
 
 You can customize the plugin by:
