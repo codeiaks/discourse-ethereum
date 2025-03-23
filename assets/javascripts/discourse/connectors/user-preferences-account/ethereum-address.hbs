@@ -2,7 +2,7 @@
   <label class="control-label">{{i18n "discourse_ethereum.ethereum_address"}}</label>
   <div class="controls ethereum-address-container">
     {{#if this.model.custom_fields.ethereum_address}}
-      <div class="ethereum-address-display">{{this.model.custom_fields.ethereum_address}}</div>
+      <div class="ethereum-address-display"><p>{{this.model.custom_fields.ethereum_address}}</p></div>
       <button type="button" class="btn btn-default reconnect-wallet-btn" {{action "connectWallet"}}>Reconnect Wallet</button>
     {{else}}
       <div class="ethereum-address-placeholder">{{i18n "discourse_ethereum.no_wallet_connected"}}</div>
@@ -11,9 +11,9 @@
   </div>
   <div class="control-description">
     {{#if this.model.custom_fields.ethereum_address}}
-      {{i18n "discourse_ethereum.connect_wallet_description"}}
-    {{else}}
       {{i18n "discourse_ethereum.connect_successful_description"}}
+    {{else}}
+      {{i18n "discourse_ethereum.connect_wallet_description"}}
     {{/if}}
   </div>
 </div>
