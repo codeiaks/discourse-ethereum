@@ -1,0 +1,13 @@
+en:
+  js:
+    discourse_ethereum:
+      ethereum_address: "Ethereum Address"
+      connect_wallet_description: "Connect your Ethereum wallet to display your address on your profile"
+      sign_message_button: "Sign Message"
+      sign_message:
+        title: "Sign Message with Wallet"
+        message_label: "Message to sign"
+        message_placeholder: "Enter a message to sign with your Ethereum wallet"
+        signing: "Signing message..."
+        signature: "Signature"
+        sign_button: "Sign"
