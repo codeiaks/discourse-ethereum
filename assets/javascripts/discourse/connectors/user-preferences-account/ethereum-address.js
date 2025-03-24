@@ -13,6 +13,7 @@ export default {
           if (address) {
             args.model.set("custom_fields.ethereum_address", address);
             console.log("Wallet connected:", address);
+            args.model.save();
           }
         } else {
           console.error("window.connectWallet function not found");
